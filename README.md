@@ -26,4 +26,5 @@ fordelay(2000, items, function(key, value)
 }).then(() => console.info("done"))
 
 ```
+Try on <a target="_blank" href="https://npm.runkit.com/fordelay">RunKit</a>
 
