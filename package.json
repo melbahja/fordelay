@@ -1,0 +1,9 @@
+{
+  "name": "fordelay",
+  "description": "For loops with delay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/melbahja/fordelay",
+  "author": "Mohamed Elbahja",
+  "license": "MIT"
+}
