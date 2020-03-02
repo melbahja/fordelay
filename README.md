@@ -1,5 +1,5 @@
 # fordelay
-JS for loops with delay
+Javascript foreach with delay
 
 ## Install
 ```bash
@@ -8,9 +8,9 @@ yarn add fordelay
 
 ## Usage
 ```js
-import fordelay from "fordelay"
+var fordelay = require("fordelay")
 
-// fordelay(delay ms, items object or array, callable)
+// fordelay(delay ms, items object or array, callable) returns a promise
 
 var items = [
 	"0 after 0s", 
@@ -26,5 +26,8 @@ fordelay(2000, items, function(key, value)
 }).then(() => console.info("done"))
 
 ```
-Try on <a target="_blank" href="https://npm.runkit.com/fordelay">RunKit</a>
+Try on [RunKit](https://npm.runkit.com/fordelay)
 
+## License
+
+[MIT](https://github.com/melbahja/fordelay/blob/master/LICENSE) © [Mohamed Elbahja](https://git.io/mohamed)
